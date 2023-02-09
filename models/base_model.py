@@ -13,10 +13,10 @@ class BaseModel:
     def __str__(self):
         return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
 
-    save(self):
+    def save(self) :
         created_at = datetime.datetime.now()
 
-    to_dict(self):
+    def  to_dict(self):
         myDict = self.__dict__.copy()
         myDict["__class__"] = self.__class__.__name__
         myDict["created_at"] = self.created_at.isoformat()
