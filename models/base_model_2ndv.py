@@ -18,7 +18,7 @@ class BaseModel:
             self.created_at = dt.now()
             self.updated_at = dt.now()
             models.storage.new(self)
-            models.storage.save(
+            models.storage.save()
 
     def __str__(self):
         return f"[{type(self).__name__}, {self.id}, {self.__dict__}]"
