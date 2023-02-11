@@ -17,13 +17,16 @@ class BaseModel:
             self.id = str(ui())
             self.created_at = dt.now()
             self.updated_at = dt.now()
+            models.storage.new(self)
+            models.storage.save(
 
     def __str__(self):
         return f"[{type(self).__name__}, {self.id}, {self.__dict__}]"
 
     def save(self):
         self.updated_at = dt.now()
-
+        from .__init__ import storage
+        storage.save()
     def to_dict(self):
         my_dict = self.__dict__.copy()
         my_dict["__class__"] = type(self).__name__
