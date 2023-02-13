@@ -16,5 +16,7 @@ reload: This method retrieves the objects from the JSON file specified by the __
 
 Overall, the FileStorage class provides a simple and convenient way to store and retrieve objects to and from a file, allowing objects to persist across program runs.
 
+file storage
+
 
 
