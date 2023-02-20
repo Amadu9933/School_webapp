@@ -1,0 +1,102 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ header {
+     background-color: dimgrey;
+     color: black;
+     text-align: center;
+     padding: 20px;
+     margin-bottom: 20px;
+ }
+.pet_icon {
+    background-image: url(school.png);
+     background-position:left;
+     background-repeat: no-repeat;
+     width: px;
+     height: 50px;
+    color: white;
+}
+
+ nav {
+     display: flex;
+     background-color: lemonchiffon;
+     padding: 20px;
+ }
+
+ .dropbtn {
+     background-color: dimgrey;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+ .dropdown-content a:hover {
+     background-color: #f1f1f1
+ }
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ .dropdown:hover .dropbtn {
+     background-color: black;
+ }
+
+ main {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 20px;
+ }
+
+ article {
+     background-color: lemonchiffon;
+     margin: 10px;
+     padding: 10px;
+     flex: 1 1 300px;
+ }
+
+ article h2 {
+     margin-top: 0;
+ }
+
+ article p {
+     line-height: 1.5;
+ }
+
+ footer {
+     background-color: #616161;
+     color: white;
+     text-align: center;
+     padding: 10px;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
+
