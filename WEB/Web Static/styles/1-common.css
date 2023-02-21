@@ -1,7 +1,9 @@
  body {
+
      font-family: Arial, sans-serif;
      margin: 0;
      padding: 0;
+
  }
 
  header {
@@ -10,20 +12,27 @@
      text-align: center;
      padding: 20px;
      margin-bottom: 20px;
+     border-bottom: 5px solid;
+     background-image: url("I");
+     min-height: 100%;
+     background-position: center;
+     background-size: cover;
  }
-.pet_icon {
-    background-image: url(school.png);
-     background-position:left;
+
+ .pet_icon {
+     background-image: url(school.png);
+     background-position: left;
      background-repeat: no-repeat;
      width: px;
      height: 50px;
-    color: white;
-}
+     color: white;
+ }
 
  nav {
      display: flex;
      background-color: lemonchiffon;
      padding: 20px;
+
  }
 
  .dropbtn {
@@ -75,10 +84,12 @@
  }
 
  article {
-     background-color: lemonchiffon;
+     background-color: beige;
      margin: 10px;
      padding: 10px;
      flex: 1 1 300px;
+     border-bottom: 5px solid dimgrey;
+
  }
 
  article h2 {
@@ -100,3 +111,33 @@
      right: 0;
  }
 
+ #talle {
+
+     background-image: url(IMG_1896.JPG);
+      min-height: 100%;
+     background-position: center;
+     background-size: cover;
+ }
+
+#talle1 {
+
+     background-image: url(IMG_1896.JPG);
+      min-height: 100%;
+     background-position: center;
+     background-size: cover;
+ }
+#talle2 {
+
+     background-image: url(IMG_1893.JPG);
+      min-height: 100%;
+     background-position: center;
+     background-size: cover;
+ }
+#jaarah {
+    background-image: url(IMG_3029.JPG);
+    color: white;
+     min-height: 100%;
+     background-position: center;
+     background-size: cover;
+
+}
