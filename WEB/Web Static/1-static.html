@@ -10,25 +10,75 @@
     <title>Al-Furkuan</title>
     <link rel="stylesheet" href="styles/1-common.css">
 
+    
+    <style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid beige;
+  border-right: 16px solid darkslateblue;
+  border-bottom: 16px solid black;
+  border-left: 16px solid pink;
+  width: 59px;
+  height: 12px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+        
+        .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+        
+
+</style>
+    
+    
 </head>
 
 <body>
-    <header>
+    <header><div class="loader"></div>
     
                 <div class="pet_icon">
-                    <h1><b>AL-FURKUAN JUNIOR HIGH SCHOOL</b></h1>
+                    <h1><b>AL-FURKUAN JUNIOR HIGH SCHOOL </b>
+                    </h1>
+                    
                 </div>
+        
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
 
     </header>
     <nav>
 
 
         <div class="dropdown">
+            
             <button class="dropbtn"><b>HOME</b></button>
             <div class="dropdown-content">
                 <a href="#"><b></b>Al-Furkuan</a>
                 <a href="#"><b></b>Akwatia</a>
                 <a href="#">Sadams</a>
+                
             </div>
 
         </div>
@@ -130,7 +180,7 @@
 
     </nav>
     <main>
-        <article>
+        <article  >
             <h2>About</h2> <button onclick="this.innerHTML=Date()">The time is?</button>
             <p>Our school is dedicated to providing high-quality education to all of our students. We believe in a holistic approach to learning that includes academic, social, and emotional development</p>
         </article>
