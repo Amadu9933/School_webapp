@@ -1,1 +1,1 @@
-# Building full stack scholl web application for basic, Alfurkan Jhs
+# Building full stack scholl web application for basic
