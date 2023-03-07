@@ -1,1 +1,1 @@
-# Building full stack scholl web application for basic
+# Building full stack scholl web application 
