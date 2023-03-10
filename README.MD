@@ -1,1 +1,1 @@
-# Building full stack scholl web application 
+# Building full stack app 
