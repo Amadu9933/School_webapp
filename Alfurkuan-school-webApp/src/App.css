@@ -1,5 +1,18 @@
 header {
-	background-image: linear-gradient(rgba(7, 7, 7, 0.5), rgba(27, 1, 122, 0.5)),
+	background-image: linear-gradient(rgba(78, 78, 83, 0), rgb(18, 3, 73)),
 		url("../src/assets/IMG_5304.jpeg");
-	background-attachment: fixed;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.about-contain {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 10%;
+}
+.card-container {
+	padding-bottom: 5%;
+}
+.card-container > div {
+	border-radius: 5%;
 }

@@ -6,6 +6,9 @@ import menu from "../../assets/menu.png";
 import close from "../../assets/close.png";
 
 const Navbar = () => {
+	{
+		/* State for toggle menu set open and close*/
+	}
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
@@ -13,8 +16,10 @@ const Navbar = () => {
 	};
 
 	return (
+		//Navigion bar with links and socials of th school
 		<nav
-			className={`bg-gray-800 p-4 md:rounded-none sm:rounded-10  lg:rounded-full  px-10 py-10 ${
+			//
+			className={`bg-gray-800 p-4 lg:h-32 sm:rounded-10  lg:rounded-full  px-10 lg:py-10 ${
 				isMenuOpen ? "rounded-bl-full pt-0" : "rounded-full"
 			}`}>
 			<div className="container mx-auto flex justify-between items-center">
