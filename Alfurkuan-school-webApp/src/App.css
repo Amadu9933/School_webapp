@@ -16,3 +16,6 @@ header {
 .card-container > div {
 	border-radius: 5%;
 }
+.events {
+	padding: 5%;
+}

@@ -1,8 +1,10 @@
-import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Topbar from "./components/Topbar";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
+import Events from "./components/Events";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
 	return (
@@ -25,7 +27,19 @@ const App: React.FC = () => {
 			</header>
 			<main className="mb-48">
 				<About />
+				<section className="events">
+					<h1 className="welcome text-3xl lg:text-5xl font-extrabold animate__animated animate__bounce text-center mb-5">
+						Events & News
+					</h1>
+					<Events />
+				</section>
+				<section>
+					<Gallery />
+				</section>
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	);
 };
